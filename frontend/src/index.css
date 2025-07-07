@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: bisque;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.todo-app{
+  margin: 5rem;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+button{
+  padding:0.7rem;
+  border-radius: 20%;
+  margin-left:1rem;
+}
+.card{
+  margin: 0 auto;
+}
+.card li{
+   width:auto;
+   list-style-type: none;
+   background-color: rgb(191, 202, 202);
+   height:40px;
+   padding:20px;
+   margin:20px;
+}
